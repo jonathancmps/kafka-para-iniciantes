@@ -3,6 +3,16 @@ Exemplo simples - Produzindo e consumindo mensagens em Java
 
 # Kafka CLI - Comandos do Kafka
 
+Iniciando o zookeeper: no console digite "zookeeper-server-start.bat C:\kafka\config\zookeeper.properties"
+	 *obs: É necessário especificar onde está o arquivo zookeper.properties "C:\kafka\config\zookeeper.properties"
+	
+Iniciando o kafka: no console digite "kafka-server-start.bat C:\kafka\config\server.properties"
+	 *obs: É necessário especificar onde está o arquivo kafka.properties "C:\kafka\config\kafka.properties"
+
+para testar se o kafka está respondendo, podemos digitar o seguinte comando no terminal:
+
+"kafka.topcs --bootstrap-server localhost:9092 --list"
+
 # CRIAÇÃO DE TÓPICOS
 
 # Lista os tópicos do kafka:
